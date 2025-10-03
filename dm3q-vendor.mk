@@ -41,13 +41,39 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/situation_audio_policy_volumes_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/situation_audio_policy_volumes_sec.xml \
     vendor/samsung/dm3q/proprietary/vendor/firmware/00_generic_xtalk_shape.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/00_generic_xtalk_shape.bin \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b02 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b03 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b04 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b05 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b06 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b07 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b08 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b09 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b10 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b11 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b12 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b13 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b14 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b15 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b16 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b17 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b18 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b19 \
     vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b20 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
     vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mdt \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/samsung/dm3q/proprietary/vendor/firmware/DM3_S6E3HAE_AMB681AZ01.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/DM3_S6E3HAE_AMB681AZ01.dat \
     vendor/samsung/dm3q/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
     vendor/samsung/dm3q/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/a740_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_sqe.fw \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b00 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b01 \
     vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b02 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.elf \
     vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mbn \
     vendor/samsung/dm3q/proprietary/vendor/firmware/a740_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mdt \
     vendor/samsung/dm3q/proprietary/vendor/firmware/bt_nvm_loading.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/bt_nvm_loading.xml \
@@ -69,9 +95,29 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm3q/proprietary/vendor/firmware/cs40l26.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l26.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/cs40l26.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l26.wmfw \
     vendor/samsung/dm3q/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b04 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b05 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b06 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b07 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b08 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b09 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b10 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b11 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b12 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b13 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b14 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b15 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b16 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b17 \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b18 \
     vendor/samsung/dm3q/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
     vendor/samsung/dm3q/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
     vendor/samsung/dm3q/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/gmu_gen70200.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70200.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/hmtbtfw20.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/hmtbtfw20.tlv \
     vendor/samsung/dm3q/proprietary/vendor/firmware/hmtnv20.b21:$(TARGET_COPY_OUT_VENDOR)/firmware/hmtnv20.b21 \
     vendor/samsung/dm3q/proprietary/vendor/firmware/hmtnv20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/hmtnv20.bin \
@@ -88,7 +134,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm3q/proprietary/vendor/firmware/ois_mcu_stm32g_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_mcu_stm32g_fw.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/tsp_stm/fts2ba61y_dm3q.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_stm/fts2ba61y_dm3q.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/vl53l8.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vl53l8.bin \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
     vendor/samsung/dm3q/proprietary/vendor/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu30_4v_16mb.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_16mb.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu30_4v_16mb_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_16mb_unsigned.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu30_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_unsigned.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v.mbn \
+    vendor/samsung/dm3q/proprietary/vendor/firmware/vpu33_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v_unsigned.mbn \
     vendor/samsung/dm3q/proprietary/vendor/firmware/wez02_dm3_c0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wez02_dm3_c0.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/wez02_dm3_c1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wez02_dm3_c1.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/wez02_dm3_c2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wez02_dm3_c2.bin \
@@ -244,9 +297,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bttpi-impl \
     libPdSdCore \
     libSWB.camera.samsung \
+    libSWNDFilterPreview.camera.samsung \
     libTsAf_DM123Q \
     libTsAwbFront_DM3 \
     libTsAwb_DM3 \
+    libUniScaler.uniplugin@1.0 \
+    lib_SamsungRec_08020 \
+    lib_SoundAlive_play_plus_ver800 \
+    lib_lvacfs \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
@@ -262,6 +320,7 @@ PRODUCT_PACKAGES += \
     libmulticam_image_optical_zoom \
     libmulticam_optical_zoom_control \
     libmulticam_video_optical_zoom \
+    libndfilter_preview.uniplugin@1.0 \
     libsehbluetooth_audio_session_aidl \
     libsoc_helper \
     libswb_interface \

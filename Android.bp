@@ -5466,6 +5466,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libSWNDFilterPreview.camera.samsung",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libSWNDFilterPreview.camera.samsung.so",
+            ],
+            shared_libs: [
+                "libz",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libTsAf_DM123Q",
     owner: "samsung",
     strip: {
@@ -5532,6 +5557,105 @@ cc_prebuilt_library_shared {
                 "libclang_rt.ubsan_standalone",
                 "libc++_shared",
                 "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libUniScaler.uniplugin@1.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libUniScaler.uniplugin@1.0.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libUniPluginUtils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "lib_SamsungRec_08020",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/lib_SamsungRec_08020.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+                "liblog",
+                "lib_lvacfs",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "lib_SoundAlive_play_plus_ver800",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/lib_SoundAlive_play_plus_ver800.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+                "liblog",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "lib_lvacfs",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/lib_lvacfs.so",
+            ],
+            shared_libs: [
                 "libc",
                 "libm",
                 "libdl",
@@ -6032,6 +6156,33 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libmpbase",
                 "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libndfilter_preview.uniplugin@1.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libndfilter_preview.uniplugin@1.0.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libSWNDFilterPreview.camera.samsung",
+                "libc++",
                 "libc",
                 "libm",
                 "libdl",
