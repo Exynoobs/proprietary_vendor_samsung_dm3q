@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_stk3a9x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_stk3a9x_0.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/kailua_tmd4913_2.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_tmd4913_2.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
+    vendor/samsung/dm3q/proprietary/vendor/etc/sensors/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_gyro_cal.json \
     vendor/samsung/dm3q/proprietary/vendor/etc/situation_audio_policy_volumes_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/situation_audio_policy_volumes_sec.xml \
     vendor/samsung/dm3q/proprietary/vendor/firmware/00_generic_xtalk_shape.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/00_generic_xtalk_shape.bin \
     vendor/samsung/dm3q/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
@@ -323,8 +324,11 @@ PRODUCT_PACKAGES += \
     libmulticam_optical_zoom_control \
     libmulticam_video_optical_zoom \
     libndfilter_preview.uniplugin@1.0 \
+    libqfp_sensortest \
     librecordalive \
     libsehbluetooth_audio_session_aidl \
+    libsfp_sensor \
+    libsfp_teegw \
     libsoc_helper \
     libswb_interface \
     libthirdparty_zoomtranslator_imp \
